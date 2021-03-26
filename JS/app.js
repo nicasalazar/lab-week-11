@@ -12,7 +12,7 @@ const todoList = [
         status: 'started'
     },
     {
-        todo: 'push your code to your own GitHub repo',
+        todo: 'push your code to your GitHub repo',
         status: 'started'
     }
 ];
