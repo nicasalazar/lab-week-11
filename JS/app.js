@@ -16,4 +16,10 @@ const todoList = [
         status: 'started'
     }
 ];
-
+const completedTodos = []; {
+    for (const todo of todoList) {
+        if (todo.status == 'complete') {
+            completedTodos.push(todo)
+        }
+    }
+}
