@@ -22,4 +22,9 @@ const completedTodos = []; {
             completedTodos.push(todo)
         }
     }
+
+    for (const todoObj of completedTodos) {
+        ({ todo } = todoObj)
+        console.log(todo)
+    }
 }
